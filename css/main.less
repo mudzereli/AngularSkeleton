@@ -1,0 +1,60 @@
+/* LESS variables */
+@footer-height: 45;
+@navbar-brand-width: 33; /* percentage */
+@background-url: 'http://www.wallpaperup.com/uploads/wallpapers/2014/04/07/324863/aaa2e8698fb921bdd3f957f19bba408b.jpg';
+
+/* main styling */
+html {
+    footer {
+        background-color: white;
+    }
+}
+
+/* centered background image */
+body { 
+  background: url(@background-url) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* sticky footer */
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+    body {
+        height: 100%;
+    }
+    .wrapper {
+        min-height: 100%;
+        margin: 0 auto @footer-height * -1px;
+    }
+    footer, .push {
+        height: @footer-height + 0px;
+    }
+    footer {
+        padding-top: 5px;
+    }
+}
+
+/* justified navbar */
+@media (min-width: 768px){
+    .navbar-header {
+        width: @navbar-brand-width + 0% !important;
+    }
+    .navbar-nav {
+        margin: 0 auto !important;
+        display: table !important;
+        table-layout: auto !important;
+        float: none !important;
+        width: 100% - @navbar-brand-width !important;
+    }
+    .navbar-nav>li {
+        display: table-cell !important;
+        float: none !important;
+        text-align: center !important;
+    }
+}
