@@ -52,15 +52,19 @@ angular.module('AngularApp', [
     $scope.ChangeTheme = function(theme) {
       if($scope.CurrentTheme.ID !== 'bootstrap') {
         $css.remove('//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/' + $scope.CurrentTheme.ID + '/bootstrap.min.css');
+      } else {
+        $css.remove('bootstrap-3.3.4-dist/css/bootstrap.min.css');
       }
       $scope.CurrentTheme = $scope.Themes[theme];
       if($scope.CurrentTheme.ID !== 'bootstrap') {
         $css.add('//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/' + $scope.CurrentTheme.ID + '/bootstrap.min.css');
+      } else {
+        $css.add('bootstrap-3.3.4-dist/css/bootstrap.min.css');
       }
       localStorageService.set('theme',$scope.CurrentTheme.ID);
     };
     var theme = localStorageService.get('theme');
-    if(theme === null) {
+    if(theme === null || theme == 'undefined') {
       theme = 'bootstrap';
     }
     $scope.CurrentTheme = $scope.Themes[theme];

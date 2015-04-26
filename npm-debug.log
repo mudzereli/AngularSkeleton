@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json grunt_tutorial@ No repository field.
+5 warn package.json grunt_tutorial@ No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Users\\mudzereli\\Documents\\GitHub\\AngularSkeleton',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-less',
+7 verbose install     'grunt-contrib-autoprefixer',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-coffee',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-jade',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-stylus',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch' ] ]
+8 info preinstall grunt_tutorial@
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping grunt@0.x.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+11 verbose already installed skipping grunt-contrib-clean@0.5.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+12 verbose already installed skipping grunt-contrib-copy@0.4.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+13 verbose already installed skipping grunt-contrib-less@~0.8.2 C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+14 verbose cache add [ 'grunt-contrib-autoprefixer@0.2.x', null ]
+15 verbose cache add name=undefined spec="grunt-contrib-autoprefixer@0.2.x" args=["grunt-contrib-autoprefixer@0.2.x",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'grunt-contrib-autoprefixer@0.2.x',
+16 verbose parsed url   path: 'grunt-contrib-autoprefixer@0.2.x',
+16 verbose parsed url   href: 'grunt-contrib-autoprefixer@0.2.x' }
+17 verbose cache add name="grunt-contrib-autoprefixer" spec="0.2.x" args=["grunt-contrib-autoprefixer","0.2.x"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '0.2.x',
+18 verbose parsed url   path: '0.2.x',
+18 verbose parsed url   href: '0.2.x' }
+19 verbose addNamed [ 'grunt-contrib-autoprefixer', '0.2.x' ]
+20 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+21 verbose already installed skipping grunt-contrib-cssmin@0.6.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+22 verbose already installed skipping grunt-contrib-coffee@0.7.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+23 verbose already installed skipping grunt-contrib-connect@0.4.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+24 verbose already installed skipping grunt-contrib-jade@0.8.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+25 silly lockFile b573eef4-grunt-contrib-autoprefixer-0-2-x grunt-contrib-autoprefixer@0.2.x
+26 verbose lock grunt-contrib-autoprefixer@0.2.x C:\Users\mudzereli\AppData\Roaming\npm-cache\b573eef4-grunt-contrib-autoprefixer-0-2-x.lock
+27 silly addNameRange { name: 'grunt-contrib-autoprefixer',
+27 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+27 silly addNameRange   hasData: false }
+28 verbose url raw grunt-contrib-autoprefixer
+29 verbose url resolving [ 'https://registry.npmjs.org/',
+29 verbose url resolving   './grunt-contrib-autoprefixer' ]
+30 verbose url resolved https://registry.npmjs.org/grunt-contrib-autoprefixer
+31 info trying registry request attempt 1 at 20:45:34
+32 http GET https://registry.npmjs.org/grunt-contrib-autoprefixer
+33 verbose already installed skipping grunt-contrib-jshint@0.6.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+34 verbose already installed skipping grunt-contrib-stylus@0.8.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+35 verbose already installed skipping grunt-contrib-uglify@0.2.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+36 verbose already installed skipping grunt-contrib-watch@0.5.x C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+37 http 404 https://registry.npmjs.org/grunt-contrib-autoprefixer
+38 silly registry.get cb [ 404,
+38 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+38 silly registry.get     'content-type': 'application/json',
+38 silly registry.get     'cache-control': 'max-age=0',
+38 silly registry.get     'content-length': '51',
+38 silly registry.get     'accept-ranges': 'bytes',
+38 silly registry.get     date: 'Sun, 26 Apr 2015 01:45:59 GMT',
+38 silly registry.get     via: '1.1 varnish',
+38 silly registry.get     age: '0',
+38 silly registry.get     connection: 'keep-alive',
+38 silly registry.get     'x-served-by': 'cache-ord1726-ORD',
+38 silly registry.get     'x-cache': 'MISS',
+38 silly registry.get     'x-cache-hits': '0',
+38 silly registry.get     'x-timer': 'S1430012759.014131,VS0,VE164' } ]
+39 silly lockFile b573eef4-grunt-contrib-autoprefixer-0-2-x grunt-contrib-autoprefixer@0.2.x
+40 silly lockFile b573eef4-grunt-contrib-autoprefixer-0-2-x grunt-contrib-autoprefixer@0.2.x
+41 error 404 'grunt-contrib-autoprefixer' is not in the npm registry.
+41 error 404 You should bug the author to publish it
+41 error 404 It was specified as a dependency of 'grunt_tutorial'
+41 error 404
+41 error 404 Note that you can also install from a
+41 error 404 tarball, folder, or http url, or git url.
+42 error System Windows_NT 6.1.7601
+43 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+44 error cwd C:\Users\mudzereli\Documents\GitHub\AngularSkeleton
+45 error node -v v0.10.26
+46 error npm -v 1.4.3
+47 error code E404
+48 verbose exit [ 1, true ]
