@@ -69,7 +69,7 @@ module.exports = function(grunt) {
           mangle: false
         },
         files: {
-          'build/javascript.min.js': [ 'build/js/main.js', 'build/js/app.js', '!build/bootstrap-3.3.4-dist/**' ]
+          'build/javascript.min.js': [ 'source/js/main.js', 'source/js/app.js', '!build/bootstrap-3.3.4-dist/**' ]
         }
       }
     },
